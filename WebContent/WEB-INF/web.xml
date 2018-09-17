@@ -37,6 +37,12 @@
        <url-pattern>/initParam</url-pattern>
     </servlet-mapping>
 
+
+	<servlet>
+		<servlet-name>AnnotationServlet</servlet-name>
+		<servlet-class>org.thanhle.tutorial.servlet.AnnotationServlet</servlet-class>
+	</servlet>
+
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
